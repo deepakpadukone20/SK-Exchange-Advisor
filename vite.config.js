@@ -9,8 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: "https://api.exchangerate.host/",
-        rewrite: (path) => path.replace(/^\/api/, '')
+        target: "https://api.exchangerate.host/"
       }
     }
     },
