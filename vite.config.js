@@ -7,15 +7,14 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 // https://vitejs.dev/config/
 export default defineConfig({
   base:'/SK-Exchange-Advisor/',
-  // server: {
-  //   proxy: {
-  //     '/api': {
-  //       target: "https://api.exchangerate.host/",
-  //       changeOrigin: true,
-  //       rewrite: (path) => path.replace(/^\/api/, '')
-  //     }
-  //   }
-  //   },
+  server: {
+    proxy: {
+      '/api': {
+        target: "https://api.exchangerate.host/",
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
+    },
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
