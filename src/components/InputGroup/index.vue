@@ -51,9 +51,9 @@ export default {
       // this.currencyCodeFrom = temp;
     },
     handleGetCurrencyRates() {
-      const { currencyCodeFrom, currencyCodeTo, startDate,switchRequest } = this;
-      if(switchRequest && currencyCodeFrom === currencyCodeTo){
-        switchRequest = false;
+      const { currencyCodeFrom, currencyCodeTo, startDate } = this;
+      if(this.switchRequest && currencyCodeFrom === currencyCodeTo){
+        this.switchRequest = false;
         return;
       }
       this.getCurrencyRates({
