@@ -36,6 +36,9 @@ npm run build
 - I started with default vue-vite cli setup. I could see there were existing router config and I did not remove it. 
 - I observed one issue with api, ie., when Higher exchange rate Currency(eg USD) was on ***from*** symbol the api sometime returned negligible rates agaist weeker rate symbol , which resulted in a straight line (Screen Grab Below)
 
+## changes done on 6th sep
+
+- changed the base url and few vite config. The deployment is successful. I was able to host on [https://deepakpadukone20.github.io/SK-Exchange-Advisor/](https://deepakpadukone20.github.io/SK-Exchange-Advisor/)
 
 ![](https://github.com/deepakpadukone20/SK-Exchange-Advisor/raw/main/Screenshot%202022-09-05%20at%2022.50.29.png)
 
