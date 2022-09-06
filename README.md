@@ -27,3 +27,14 @@ npm run dev
 ```sh
 npm run build
 ```
+### Comments
+
+- I could develop all requiremnts mentioned. 
+- I tired deploying this dist to gh-pages which was not asked in the brief, I could not figure out vite config usage. Unlike webpack config which I have done before. I understaood it was something to do with ***base*** url, but did not work more.
+- I tired to work on about 2 hours with my previous experiance in React/Angular. It was great learning,
+- I did not really work on adding unit test, I know that would have been made it complete.
+- I started with default vue-vite cli setup. I could see there were existing router config and I did not remove it. 
+- I observed one issue with api, ie., when Higher exchange rate Currency(eg USD) was on ***from*** symbol the api sometime returned negligible rates agaist weeker rate symbol , which resulted in a straight line (Screen Grab Below)
+
+
+![](https://github.com/deepakpadukone20/SK-Exchange-Advisor/raw/main/Screenshot%202022-09-05%20at%2022.50.29.png)
