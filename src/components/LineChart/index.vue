@@ -17,6 +17,11 @@ export default {
         title: {
           text: `${this.chartData.datasets[0].label} chart`
         },
+        plotOptions: {
+        series: {
+            color: '#FF0000'
+        }
+        },
         xAxis: {
           title: {
             text: ''
@@ -31,7 +36,7 @@ export default {
         },
         plotOptions: {
           series: {
-            color: '#FF0000'
+            color: '#1868fb'
           }
         },
 
